@@ -18,6 +18,7 @@
 		8431C2FD19335EE300EDA2B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431C2DC19335EE300EDA2B4 /* Cocoa.framework */; };
 		8431C30519335EE300EDA2B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8431C30319335EE300EDA2B4 /* InfoPlist.strings */; };
 		8431C30719335EE300EDA2B4 /* Bin001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C30619335EE300EDA2B4 /* Bin001Tests.m */; };
+		8446DFC719336C9F0074F670 /* mv in Resources */ = {isa = PBXBuildFile; fileRef = 8446DFC619336C9F0074F670 /* mv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8431C30219335EE300EDA2B4 /* Bin001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bin001Tests-Info.plist"; sourceTree = "<group>"; };
 		8431C30419335EE300EDA2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8431C30619335EE300EDA2B4 /* Bin001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bin001Tests.m; sourceTree = "<group>"; };
+		8446DFC619336C9F0074F670 /* mv */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		8431C2E219335EE300EDA2B4 /* Bin001 */ = {
 			isa = PBXGroup;
 			children = (
+				8446DFC619336C9F0074F670 /* mv */,
 				8431C2EE19335EE300EDA2B4 /* AppDelegate.h */,
 				8431C2EF19335EE300EDA2B4 /* AppDelegate.m */,
 				8431C2F119335EE300EDA2B4 /* MainMenu.xib */,
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8446DFC719336C9F0074F670 /* mv in Resources */,
 				8431C2E719335EE300EDA2B4 /* InfoPlist.strings in Resources */,
 				8431C2F519335EE300EDA2B4 /* Images.xcassets in Resources */,
 				8431C2ED19335EE300EDA2B4 /* Credits.rtf in Resources */,
@@ -466,6 +470,7 @@
 				8431C30C19335EE300EDA2B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8431C30D19335EE300EDA2B4 /* Build configuration list for PBXNativeTarget "Bin001Tests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				8431C30F19335EE300EDA2B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
