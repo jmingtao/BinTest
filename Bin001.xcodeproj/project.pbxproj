@@ -19,6 +19,7 @@
 		8431C30519335EE300EDA2B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8431C30319335EE300EDA2B4 /* InfoPlist.strings */; };
 		8431C30719335EE300EDA2B4 /* Bin001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C30619335EE300EDA2B4 /* Bin001Tests.m */; };
 		8446DFC319336B6E0074F670 /* rm in Resources */ = {isa = PBXBuildFile; fileRef = 8446DFC219336B6E0074F670 /* rm */; };
+		8446DFC519336BB70074F670 /* mv in Resources */ = {isa = PBXBuildFile; fileRef = 8446DFC419336BB70074F670 /* mv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8431C30419335EE300EDA2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8431C30619335EE300EDA2B4 /* Bin001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bin001Tests.m; sourceTree = "<group>"; };
 		8446DFC219336B6E0074F670 /* rm */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rm; sourceTree = "<group>"; };
+		8446DFC419336BB70074F670 /* mv */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		8431C2E219335EE300EDA2B4 /* Bin001 */ = {
 			isa = PBXGroup;
 			children = (
+				8446DFC419336BB70074F670 /* mv */,
 				8446DFC219336B6E0074F670 /* rm */,
 				8431C2EE19335EE300EDA2B4 /* AppDelegate.h */,
 				8431C2EF19335EE300EDA2B4 /* AppDelegate.m */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8446DFC319336B6E0074F670 /* rm in Resources */,
+				8446DFC519336BB70074F670 /* mv in Resources */,
 				8431C2E719335EE300EDA2B4 /* InfoPlist.strings in Resources */,
 				8431C2F519335EE300EDA2B4 /* Images.xcassets in Resources */,
 				8431C2ED19335EE300EDA2B4 /* Credits.rtf in Resources */,
